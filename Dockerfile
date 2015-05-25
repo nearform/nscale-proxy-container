@@ -1,6 +1,6 @@
 # nscale Haproxy Dockerfile
 
-FROM dockerfile/ubuntu
+FROM ubuntu
 
 RUN \
   sed -i 's/^# \(.*-backports\s\)/\1/g' /etc/apt/sources.list && \
